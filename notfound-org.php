@@ -2,7 +2,7 @@
 /*
 Plugin Name: 404gotten.org 404 Page
 Plugin URI: https://github.com/AdeptMarketing/404gotten-wp
-Description: A Wordpress plugin that turns your 404 "not found" error page into a 404 page dedicated to help impoverished children around the world receive sponsorships. Inspired by and extends the plugin built by Kenny Katzgrau for 404notfound.org 
+Description: A WordPress plug-in designed to convert your 404 not found page into a way to help a Compassion child find a sponsor.
 Version: 1.0
 Author: Phil Birnie
 Author URI: http://marketingadept.com
