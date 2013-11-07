@@ -1,13 +1,13 @@
 === Plugin Name ===
 Contributors: katzgrau, philbirnie
-Tags: 404gotten.org, 404gotten, sponsor children, sponsor 404
+Tags: 404gotten.org, 404gotten, sponsor children, sponsor, 404, compassion international, sponsor a child, child sponsorship
 Requires at least: 3.5
 Tested up to: 3.7.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Wordpress plugin that turns your 404 "not found" error page into a 404 page dedicated to help impoverished children around the world receive sponsorships.
+A WordPress plug-in designed to convert your 404 not found page into a way to help a Compassion child find a sponsor
 
 == Description ==
 
