@@ -21,7 +21,7 @@ navigated to web page that just isn't there. It happens, and it's one
 of the most common error pages you see.
 
 Note: Activating this plug-in will automatically replace your default
-Drupal 404 page. To stop it, simply deactivate.
+Wordpress 404 page. To stop it, simply deactivate.
 
 All of the unsponsored children are served within an iframe pointing to
 [404gotten.org](http://404gotten.org). [404gotten.org](http://404gotten.org)
