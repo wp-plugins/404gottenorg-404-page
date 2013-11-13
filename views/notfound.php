@@ -17,6 +17,6 @@
 			}
 		</style>
 
-		<iframe src="http://404gotten.org/foundframe/?ref=133842" width="100%" height="900" frameborder="0" scrolling="no"></iframe>
+		<iframe src="http://404gotten.org/foundframe/?referer=133842" width="100%" height="900" frameborder="0" scrolling="no"></iframe>
 	</body>
 </html>
