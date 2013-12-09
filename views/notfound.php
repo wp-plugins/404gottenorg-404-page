@@ -17,6 +17,24 @@
 			}
 		</style>
 
-		<iframe src="http://404gotten.org/foundframe/?r=wp" width="100%" height="900" frameborder="0" scrolling="no"></iframe>
+		<iframe src="http://404gotten.org/foundframe/?referer=133842" width="100%" height="900" frameborder="0" scrolling="no"></iframe>
+
+		<!--
+		ASCII ART NECESSARY SO THAT IT APPEARS IN IE.
+		                (((       ,,
+                ( *)======/\====
+                 )(      /  \ 
+      __________/  )    /    \
+      \___EJM96    /   / ""   \ 
+        \____    _/   / (**)   \
+           / \__/    (----------)
+          /____|__//_ (  it's   )
+               |      (   a    )
+               |       ( boy! )
+               |        (____)
+              _|__
+               \
+         -->
+
 	</body>
 </html>
