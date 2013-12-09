@@ -3,7 +3,7 @@ Contributors: katzgrau, philbirnie
 Tags: 404gotten.org, 404gotten, sponsor children, sponsor, 404, compassion international, sponsor a child, child sponsorship
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
