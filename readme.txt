@@ -36,3 +36,13 @@ the Better Business Bureau, Charity Navigator and others.
 There aren't really any special instructions for installing this plug-in. Once
 installed, be sure to go to the '404gotten.org' settings page if the 404 page isn't appearing.
 This may happen if your webhost serves up their own 404 pages.
+
+== Changelog ==
+
+1.1
+---
+Fix issue that was preventing page from showing up in some browsers (especially IE 7-9) because content was too short (less than 512 bytes)
+
+1.0
+---
+Initial Build
