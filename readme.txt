@@ -41,7 +41,7 @@ This may happen if your webhost serves up their own 404 pages.
 
 1.2
 ---
-Fixes issue with responsive issue not showing on mobile devices because page that holds iFrame was missing content-width tag.
+Fixes issue with responsive version not showing on mobile devices because page that holds iFrame was missing content-width tag.
 
 1.1
 ---
