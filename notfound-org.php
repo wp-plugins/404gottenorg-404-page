@@ -3,7 +3,7 @@
 Plugin Name: 404gotten.org 404 Page
 Plugin URI: https://github.com/AdeptMarketing/404gotten-wp
 Description: A WordPress plug-in designed to convert your 404 not found page into a way to help a Compassion child find a sponsor.
-Version: 1.1
+Version: 1.2
 Author: Phil Birnie
 Author URI: http://marketingadept.com
 */
