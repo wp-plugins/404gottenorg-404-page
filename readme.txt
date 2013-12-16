@@ -3,7 +3,7 @@ Contributors: katzgrau, philbirnie
 Tags: 404gotten.org, 404gotten, sponsor children, sponsor, 404, compassion international, sponsor a child, child sponsorship
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ installed, be sure to go to the '404gotten.org' settings page if the 404 page is
 This may happen if your webhost serves up their own 404 pages.
 
 == Changelog ==
+
+1.2
+---
+Fixes issue with responsive issue not showing on mobile devices because page that holds iFrame was missing content-width tag.
 
 1.1
 ---
