@@ -3,7 +3,7 @@
 Plugin Name: 404gotten.org 404 Page
 Plugin URI: https://github.com/AdeptMarketing/404gotten-wp
 Description: A WordPress plug-in designed to convert your 404 not found page into a way to help a Compassion child find a sponsor.
-Version: 1.1
+Version: 1.3
 Author: Phil Birnie
 Author URI: http://marketingadept.com
 */
@@ -11,7 +11,7 @@ Author URI: http://marketingadept.com
 require_once dirname(__FILE__) . '/lib/Utility.php';
 require_once dirname(__FILE__) . '/lib/View.php';
 
-add_action('template_redirect',   array('Compassion_Core', 'load404'), 1);
+add_action('template_redirect',   array('Compassion_Core', 'load404'), 20);
 add_action('admin_menu',   array('Compassion_Core', 'registerAdmin'));
 
 /**
@@ -25,17 +25,31 @@ class Compassion_Core
     static function load404()
     {
         if(is_404()) {
+            // if permalink finder is defined AND no suggestions found
+            if ((function_exists('kpg_permalink_finder')) && ($find<1)) {
 
-            $omit_404 = Compassion_Utility::getOption('nf_omit_error', false);
+                $omit_404 = Compassion_Utility::getOption('nf_omit_error', false);
 
-            if(!$omit_404)
-                header("HTTP/1.1 404 Not Found");
-            else
-                header("HTTP/1.1 200 OK");
+                if(!$omit_404)
+                    header("HTTP/1.1 404 Not Found");
+                else
+                    header("HTTP/1.1 200 OK");
 
+                Compassion_View::load('notfound');
+                exit;
+            } else {
+                //  permalink finder is not defined or no suggestion
+                //  Use Standard function.
+                $omit_404 = Compassion_Utility::getOption('nf_omit_error', false);
 
-            Compassion_View::load('notfound');
-            exit;
+                if(!$omit_404)
+                    header("HTTP/1.1 404 Not Found");
+                else
+                    header("HTTP/1.1 200 OK");
+
+                Compassion_View::load('notfound');
+                exit;
+            }
         }
     }
 
