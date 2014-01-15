@@ -2,8 +2,8 @@
 Contributors: katzgrau, philbirnie
 Tags: 404gotten.org, 404gotten, sponsor children, sponsor, 404, compassion international, sponsor a child, child sponsorship
 Requires at least: 3.5
-Tested up to: 3.7.1
-Stable tag: 1.2
+Tested up to: 3.8
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,9 +35,15 @@ the Better Business Bureau, Charity Navigator and others.
 
 There aren't really any special instructions for installing this plug-in. Once
 installed, be sure to go to the '404gotten.org' settings page if the 404 page isn't appearing.
-This may happen if your webhost serves up their own 404 pages.
+This may happen if your webhost serves up their own 404 pages. In addition, please check
+compatibility with any plugins that may rewrite your URLs as this plugin may not work, or may
+disrupt its function.
 
 == Changelog ==
+
+1.3
+---
+Introduces compatibility with Permalink Finder (Daren Viss)
 
 1.2
 ---
